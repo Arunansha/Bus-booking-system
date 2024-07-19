@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(tb.png);
+    background-size: cover;
+}
+
+.home a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 44%;
+    font-size: larger;
+}
+
+.home:hover {
+    /* font-size: large; */
+    font-weight: bolder;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+b {
+    margin-left: 5%;
+    color: rgb(66, 188, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p {
+    margin-left: 9%;
+    margin-right: 5%;
+    color: rgb(252, 254, 255);
+    background-color: rgba(0, 0, 0, 0.404);
+    font-family: cursive;
+}
+
+h1 {
+    margin-left: 37%;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.box {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.box1 {
+    margin-bottom: 1%;
+}
+
+.contactpagelink {
+    text-decoration: none;
+    color: rgb(211, 42, 0);
+    background-color: #ffffffec;
+    font-size: larger;
+}
+
+.contactpagelink:hover {
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}

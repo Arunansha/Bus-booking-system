@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Account Login </title>
+    <link rel="stylesheet" href="Busticketbooking.css">
+
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <script>
+        function validateForm() {
+            var slocation = document.forms["myForm"]["slocation"].value;
+            var Destination = document.forms["myForm"]["Destination"].value;
+            var Date = document.forms["myForm"]["Date"].value;
+            var Passenger = document.forms["myForm"]["Passenger"].value;
+
+            if (slocation == "") {
+                alert("Starting location  must be filled out");
+                return false;
+            }
+            if (Destination == "") {
+                alert("Destination must be filled out");
+                return false;
+            }
+            // Check if email is empty or invalid
+            if (Date == "") {
+                alert("Departure date must be filled out");
+                return false;
+            }
+            if (Passenger == "" || isNaN(Passenger)) {
+                alert("No of Passengers must be filled out");
+                return false;
+            }
+            alert("Your Booking is Done, Please Pay During Boarding (Cash,Any Card,UPI Accepted)");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="home">
+        <a href="Busbookinghome.html" class="home"><i class="fa-solid fa-house"></i> Tap to return Home </a>
+    </div>
+
+    <form name="myForm" onsubmit="return validateForm()">
+
+        <h2 class="text">Enter Booking Details</h2>
+        <br>
+        <label class="texttwo" for="slocation">Enter Pickup Point:</label><br>
+        <input class="my_class" type="text" name="slocation" id="slocation" placeholder="Enter location"><br>
+
+        <label class="texttwo" for="Destination">Enter Drop Point:</label><br>
+        <input class="my_class" type="text" name="Destination" id="Destination" placeholder="Enter Destination"><br>
+
+        <label class="texttwo" for="Date">Enter Departure Date:</label><br>
+        <input class="my_class" type="date" name="Date" id="Date" placeholder="Enter Departure Date"><br>
+
+        <label class="texttwo" for="Passenger">Enter the no of Passengers:</label><br>
+        <input class="my_class" type="number" name="Passenger" id="Passenger" placeholder="Enter no of passengers"><br>
+
+        <input type="submit" value="Book" class="my_btn"><br>
+
+    </form>
+
+</body>
+
+</html>

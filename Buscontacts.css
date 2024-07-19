@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: -webkit-image-set("Contact.gif");
+    background-size: cover;
+}
+
+.home {
+    text-align: center;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: x-large;
+}
+
+.home:hover {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(0, 214, 68);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-fourth ul li {
+    list-style: none;
+    margin: 0 23px;
+    background-color: rgba(128, 128, 128, 0.514);
+    text-align: center;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10%;
+    border-color: rgba(183, 0, 255, 0.747);
+}
+
+.footer-fourth ul li a {
+    text-decoration: none;
+    /* color: white; */
+    /* font-size: medium; */
+    font-weight: bolder;
+}
+
+.email {
+    background-color: #d4ceceb6;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(200, 3, 200);
+}
+
+.facebook {
+    background-color: #d4ceceb6;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(0, 64, 255);
+}
+
+.instagram {
+    background-color: #d4ceceb6;
+    font-size: xx-large;
+    font-style: italic;
+    color: #fe6200;
+}
+
+.phone {
+    background-color: #d4ceceb6;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(40 159 15);
+}

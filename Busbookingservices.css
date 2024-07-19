@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: -webkit-image-set("busservicepic.png");
+    background-size: cover;
+}
+
+.home {
+    text-align: center;
+    font-size: x-large;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-fourth ul li {
+    list-style: none;
+    margin: 10px 50px;
+    background-color: rgba(128, 128, 128, 0.514);
+    text-align: center;
+    margin-top: 3.5%;
+    border: solid;
+    border-radius: 10%;
+    border-color: aqua;
+    font-size: x-large;
+}
+
+.pngs {
+    width: 35px;
+    background-color: #fff;
+}
+
+.AC {
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(85, 195, 238);
+    background-color: #fff;
+    font-family: cursive;
+}
+
+.NON-AC {
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(238, 230, 85);
+    background-color: #b0aeae;
+    font-family: cursive;
+}
+
+.seats {
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(230, 85, 238);
+    background-color: #fff;
+    font-family: cursive;
+}
+
+.net {
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(85, 238, 95);
+    background-color: #949191;
+    font-family: cursive;
+}
+
+.tv {
+    text-decoration: none;
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(252, 254, 255);
+    background-color: #ea5e5e;
+    font-family: cursive;
+}

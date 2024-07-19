@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="Busbookinglogin.css">
+
+    <script>
+        var button = document.querySelector("#btn");
+
+        function user() {
+            var name = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+            if (name === "" || password === "") {
+                alert("fill all the fields")
+                return true;
+
+            } else {
+                alert("Login Successful, Please return to home page")
+                return false;
+            }
+
+        }
+
+        button.addEventListener("click", user)
+    </script>
+
+</head>
+
+<body>
+
+    <div class="home">
+        <a href="Busbookinghome.html" class="home"><i class="fa-solid fa-house"></i> Tap to return Home </a>
+    </div>
+    <form action="" onsubmit="user()">
+        <table>
+            <th>
+                <h2 class="text">
+                    User login
+                </h2>
+            </th>
+            <tr>
+                <td class="text"> Enter Username :
+                    <input class="my_class" type="text" name="" id="name" placeholder="Enter Username">
+                </td>
+            </tr>
+            <tr>
+                <td class="text"> Enter Password :
+                    <input class="my_class" type="password" name="" id="password" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td><button class="my_btn" id="btn">Login</button></td>
+            </tr>
+            <tr>
+                <td align="center" class="text">New user?<a class="linkpage"
+                        href="Busbookingregistration.html">Register</a>
+                </td>
+            </tr> 
+
+            <br>
+
+            <tr>
+                <td align="center" class="texttwo">Forgot password?<a class="linkpagetwo" href="">Click here</a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
